@@ -1,8 +1,8 @@
 first_number = int(input("Enter the first number: ").strip())
 second_number = int(input("Enter the second number: ").strip())
-operator = input("Choose the operation (+, -, *, /): ").strip()
+operation = input("Choose the operation (+, -, *, /): ").strip()
 
-match operator:
+match operation:
     case "+":
         print("The result is",first_number + second_number)
     case "-":
